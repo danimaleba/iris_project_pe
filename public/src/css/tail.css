@@ -1,0 +1,19 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+#iris-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#iris-image {
+    max-width: 40vw;
+    max-height: 40vh;
+}
