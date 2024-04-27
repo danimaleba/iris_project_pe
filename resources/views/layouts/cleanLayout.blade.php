@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
     <title>@yield('title')</title>
 
@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="bg-dark">
-    <header class="mt-0">
-      <nav class="navbar navbar-light bg-primary px-2">
+    {{-- <header class="mt-0">
+      <nav class="navbar navbar-light bg-primary px-2 py-0">
         <a class="navbar-brand" href="#">
           <img class="rounded-circle" src="{{URL('img/juliana.jpg')}}" alt="" width="30" height="24">
         </a>
@@ -32,9 +32,9 @@
           </li>
         </ul>
       </nav>
-    </header>
+    </header> --}}
 
-    <div class="container d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 106px);">
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 40px);">
       @yield('content')
     </div>
     
