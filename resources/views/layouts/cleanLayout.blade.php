@@ -34,10 +34,7 @@
       </nav>
     </header> --}}
 
-    <div class="container d-flex justify-content-center align-items-center" style="min-height: calc(100vh - 40px);">
       @yield('content')
-    </div>
-    
     
     <footer class="mt-auto mb-0 bg-dark text-white-50 full-width">
       <p class="text-end mr-2">Create by <a href="https://daniellevino.com.br" class="text-white">Daniel Levino</a></p>
